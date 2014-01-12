@@ -4,7 +4,6 @@ VERSION = 0.6.3
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE BOOST_THREAD_PROVIDES_GENERIC_SHARED_MUTEX_ON_WIN __NO_SYSTEM_INCLUDES
 CONFIG += no_include_pwd
-QT += widgets
 
 # UNCOMMENT THIS SECTION TO BUILD ON WINDOWS
 # Change paths if needed, these use the shabi/deps.git repository locations
@@ -17,8 +16,8 @@ LIBS += -lboost_system-mgw46-mt-sd-1_53 -lboost_filesystem-mgw46-mt-sd-1_53 -lbo
 BOOST_LIB_SUFFIX=-mgw46-mt-sd-1_53
 BOOST_INCLUDE_PATH=C:/deps/boost_1_53_0
 BOOST_LIB_PATH=C:/deps/boost_1_53_0/stage/lib
-BDB_INCLUDE_PATH=c:/deps/db-4.8.30.NC/build_unix
-BDB_LIB_PATH=c:/deps/db-4.8.30.NC/build_unix
+BDB_INCLUDE_PATH=c:/deps/db-5.0.32.NC/build_unix
+BDB_LIB_PATH=c:/deps/db-5.0.32.NC/build_unix
 OPENSSL_INCLUDE_PATH=c:/deps/openssl-1.0.1e/include
 OPENSSL_LIB_PATH=c:/deps/openssl-1.0.1e
 
